@@ -7,13 +7,15 @@ import App from './App';
 import './index.css';
 
 window.addEventListener("DOMContentLoaded", function () {
-    const content = document.body.textContent;
+    // const content = document.body.textContent;
+
+     var content = document.getElementById('jsonData').textContent.trim();
     try {
         const jsonData = JSON.parse(content);
         window.json = jsonData;
         let root = document.createElement("div");
         root.setAttribute("id", "rbrahul-awesome-json");
-        document.body.innerHTML = "";
+       // document.body.innerHTML = "";
         document.body.appendChild(root);
         ReactDOM.render(
             <App json={jsonData}/>,

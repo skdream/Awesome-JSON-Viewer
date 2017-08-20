@@ -72,7 +72,8 @@ const messageReceiver = () => {
 messageReceiver();
 
 function isJSONResponsePageOnly() {
-    var content = document.body.textContent.trim();
+    // var content = document.body.textContent.trim();
+    var content = document.getElementById('jsonData').textContent.trim();
     try {
         var jsonData = JSON.parse(content);
         window.jsonData = jsonData;
