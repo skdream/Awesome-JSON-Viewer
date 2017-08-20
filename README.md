@@ -18,3 +18,21 @@ A chrome extension to visualize JSON response as well as to introduce awesome pr
 
 
 **Developed with ♥ using ReactJS, Jquery and D3**
+
+
+
+
+https://developer.chrome.com/extensions/background_pages
+
+http://cnodejs.org/api/v1/topic_collect/alsotang#
+
+https://segmentfault.com/a/1190000006949838
+
+
+https://github.com/kaola-fed/blog/issues/25
+
+https://crxdoc-zh.appspot.com/extensions/getstarted
+
+https://crxdoc-zh.appspot.com/extensions/overview
+https://crxdoc-zh.appspot.com/extensions/content_scripts
+https://crxdoc-zh.appspot.com/extensions/tut_debugging

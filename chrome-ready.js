@@ -8,6 +8,16 @@ var fs =require("fs");
         console.log("Content script has been moved successfully");
     }
 });
+
+ exec("cp "+__dirname+"/public/js/options.js "+__dirname+"/build/static/js/options.js", function (error, stdout, stderr) {
+    if (error !== null) {
+        console.log('exec error: ' + error);
+    } else {
+        console.log("Content script has been moved successfully");
+    }
+});
+
+
  exec("mv "+__dirname+"/build/static/js/main*.js "+__dirname+"/build/static/js/main.js", function (error, stdout, stderr) {
     if (error !== null) {
         console.log('exec error: ' + error);
